@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/nucle0tides/holiday-card/static/css/main.c48606c9.css",
-    "main.js": "/nucle0tides/holiday-card/static/js/main.2f565744.js",
-    "static/js/453.abafc456.chunk.js": "/nucle0tides/holiday-card/static/js/453.abafc456.chunk.js",
-    "static/media/background.jpg": "/nucle0tides/holiday-card/static/media/background.068a7593c7e6394688ef.jpg",
-    "static/media/music.mp3": "/nucle0tides/holiday-card/static/media/music.1bb93e5f60a2fbc400c5.mp3",
-    "static/media/cardfront.jpg": "/nucle0tides/holiday-card/static/media/cardfront.c933aae2d4be71831164.jpg",
-    "index.html": "/nucle0tides/holiday-card/index.html",
-    "main.c48606c9.css.map": "/nucle0tides/holiday-card/static/css/main.c48606c9.css.map",
-    "main.2f565744.js.map": "/nucle0tides/holiday-card/static/js/main.2f565744.js.map",
-    "453.abafc456.chunk.js.map": "/nucle0tides/holiday-card/static/js/453.abafc456.chunk.js.map"
+    "main.css": "/holiday-card/static/css/main.cb158e16.css",
+    "main.js": "/holiday-card/static/js/main.2bd7c0d0.js",
+    "static/js/453.abafc456.chunk.js": "/holiday-card/static/js/453.abafc456.chunk.js",
+    "static/media/background.jpg": "/holiday-card/static/media/background.068a7593c7e6394688ef.jpg",
+    "static/media/music.mp3": "/holiday-card/static/media/music.1bb93e5f60a2fbc400c5.mp3",
+    "static/media/cardfront.jpg": "/holiday-card/static/media/cardfront.c933aae2d4be71831164.jpg",
+    "index.html": "/holiday-card/index.html",
+    "main.cb158e16.css.map": "/holiday-card/static/css/main.cb158e16.css.map",
+    "main.2bd7c0d0.js.map": "/holiday-card/static/js/main.2bd7c0d0.js.map",
+    "453.abafc456.chunk.js.map": "/holiday-card/static/js/453.abafc456.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c48606c9.css",
-    "static/js/main.2f565744.js"
+    "static/css/main.cb158e16.css",
+    "static/js/main.2bd7c0d0.js"
   ]
 }
