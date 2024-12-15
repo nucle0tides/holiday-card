@@ -3,12 +3,14 @@ import { useState, useRef } from "react";
 import music from "./music.mp3";
 
 export const Card = () => {
+  const [opened, setOpened] = useState(false);
   const [open, setIsOpen] = useState(false);
   const cardRef = useRef(null);
   const audioRef = useRef(null);
 
   const handleOnClick = () => {
     setIsOpen(true);
+    setOpened(true);
     if (audioRef.current) {
       audioRef.current.play().catch((error) => {
         console.error("Audio play failed:", error);
@@ -30,7 +32,7 @@ export const Card = () => {
       onClick={handleOnClick}
       onMouseLeave={handleMouseLeave}
     >
-      <div className={`card-front ${open ? "open" : "closed"}`} />
+      <div className={`card-front ${open ? "open" : opened ? "closed" : ""}`} />
       <div className="card-inside">
         <div className="card-inside-right">
           <h2 className="message-header">Happy Holidays!!</h2>
