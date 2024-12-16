@@ -1,6 +1,7 @@
 import "./Card.css";
 import { useState, useRef } from "react";
 import music from "./music.mp3";
+import pawprint from "./pawprint.png";
 
 export const Card = () => {
   const [opened, setOpened] = useState(false);
@@ -32,13 +33,18 @@ export const Card = () => {
       onClick={handleOnClick}
       onMouseLeave={handleMouseLeave}
     >
-      <div className={`card-front ${open ? "open" : opened ? "closed" : ""}`} />
       <div className="card-inside">
         <div className="card-inside-right">
-          <h2 className="message-header">Happy Holidays!!</h2>
-          <span>with love, pius</span>
+          <div className="card-inside-message">
+            <h2 className="message-header">Happy Holidays!!</h2>
+            <span>with love, pius</span>
+          </div>
+          <div className="signature">
+            <img src={pawprint} alt="pawprint" width="150" />
+          </div>
         </div>
       </div>
+      <div className={`card-front ${open ? "open" : opened ? "closed" : ""}`} />
 
       <audio
         ref={audioRef}

@@ -8,6 +8,8 @@ body {
 
   background-image: url("~/public/img/background.jpg");
   background-size: cover;
+
+  cursor: url(~/public/img/cursor.png), pointer;
 }
 
 #root {
